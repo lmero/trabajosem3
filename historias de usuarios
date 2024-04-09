@@ -1,0 +1,24 @@
+Historias de Usuario
+Historia de Usuario 1: Registro de Usuarios
+Descripción:
+Como usuario nuevo, quiero poder registrarme en la aplicación utilizando mi cuenta de Gmail.
+Criterios de Aceptación:
+•	El usuario puede acceder a la opción de registro desde la pantalla principal de la aplicación.
+•	Al seleccionar la opción de registro, se le redirige a la página de inicio de sesión de Gmail.
+•	Después de iniciar sesión con éxito en Gmail, se crea una cuenta de usuario en la aplicación asociada a la dirección de correo electrónico del usuario.
+•	Se muestra un mensaje de confirmación al usuario indicando que el registro se ha realizado con éxito.
+Historia de Usuario 2: Solicitud de Datos del Usuario
+Descripción:
+Como usuario, quiero poder ingresar los detalles necesarios para calcular el costo de despacho de mi compra.
+Criterios de Aceptación:
+•	La aplicación solicita al usuario los siguientes datos: nombre de usuario, edad, marca del vehículo, modelo del vehículo, cilindrada del vehículo, tipo de combustible del vehículo y capacidad en pasajeros del vehículo.
+•	Se presentan campos de entrada claros y etiquetados para que el usuario ingrese cada uno de los detalles solicitados.
+•	Se valida la entrada del usuario para garantizar que se proporcionen datos válidos en cada campo.
+Historia de Usuario 3: Cálculo de Costo de Despacho
+Descripción:
+Como usuario, quiero que la aplicación calcule automáticamente el costo de despacho de mi compra según las reglas de negocio establecidas.
+Criterios de Aceptación:
+•	La aplicación realiza el cálculo del costo de despacho en función del monto total de la compra y las tarifas establecidas.
+•	Si el monto total de la compra es superior a 50,000 pesos, el despacho es gratuito dentro de un radio de 20 km.
+•	Si el monto total de la compra está entre 25,000 y 49,999 pesos, se aplica una tarifa de $150 por kilómetro recorrido.
+•	Si el monto total de la compra es inferior a 25,000 pesos, se aplica una tarifa de $300 por kilómetro recorrido.
